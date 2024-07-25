@@ -1,0 +1,96 @@
+.navbar {
+    background-color: #fff; /* Fondo blanco */
+    border-bottom: 1px solid #e0e0e0; /* Línea inferior gris claro */
+}
+.navbar-brand {
+    font-weight: bold; /* Texto en negrita */
+    margin-right: 300px;
+    padding: 0 80px; /* Espacio a la derecha */
+}
+.nav-link {
+    color: #555; /* Color del texto gris */
+}
+.nav-link:hover {
+    color: #000; /* Color del texto negro al pasar el ratón */
+}
+.nav-item {
+    margin-left: 20px;
+    padding: 0 5px; /* Espaciado entre los elementos de navegación */
+}
+.navbar-nav {
+    margin: 0 auto; /* Centrar los elementos de navegación */
+}
+img{
+    padding: 30px;
+}
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+.about-section {
+    padding: 100px 0;
+}
+.lightning-icon {
+    font-size: 24px;
+    color: #6f42c1;
+}
+.card {
+    height: 100%;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+    .projects-section {
+        background-color: #f8f9fa;
+    }
+    .card {
+        transition: transform 0.2s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .skills-section {
+        background-color: #f8f9fa;
+    }
+    .skill-item {
+        background-color: #ffffff;
+        border-radius: 8px;
+        transition: transform 0.2s;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .skill-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+
+    .back-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        display: none;
+        width: 50px;
+        height: 50px;
+        background-color: #007bff;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 50%;
+        z-index: 100;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .back-to-top:hover {
+        background-color: #0056b3;
+    }
+    
+    .back-to-top i {
+        font-size: 24px;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+        
